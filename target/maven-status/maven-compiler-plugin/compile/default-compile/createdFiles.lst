@@ -1,0 +1,6 @@
+com\alex\controller\UserController.class
+com\alex\entity\User.class
+com\alex\entity\Person.class
+com\alex\dao\UserDao.class
+com\alex\service\impl\UserServiceImpl.class
+com\alex\service\UserService.class
