@@ -13,9 +13,19 @@ public class UserServiceTest {
 
     @Resource
     private UserService userService;
+    
+    @Resource
+    private JedisPool jedisPool;
 
     @Test
     public void saveUserAndPerson() {
         userService.saveStuAndPerson();
+    }
+    
+    @Test
+    public void test(){
+        Jedis jedis = jedisPool.getResource();
+        jedis.set("scoh","alex");
+        jedis.close();
     }
 }
