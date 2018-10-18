@@ -20,7 +20,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <spring.vesion>4.3.10.RELEASE</spring.vesion>
+        <spring.vesion>4.3.15.RELEASE</spring.vesion>
     </properties>
 
     <dependencies>
